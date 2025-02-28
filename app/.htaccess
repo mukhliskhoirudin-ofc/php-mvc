@@ -1,0 +1,2 @@
+# kalau tidak ada file index di dalam folder itu, maka akses diblock
+Options -Indexes

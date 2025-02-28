@@ -1,0 +1,14 @@
+# menghindari kesalahan atau ambigu ketika memanggil folder/file didalam public
+Options -Multiviews
+
+# Mengaktifkan modul RewriteEngine agar bisa melakukan URL rewriting
+RewriteEngine On
+
+# jika url yang ditulis merupakan folder kita abaikan
+RewriteCond %{REQUEST_FILENAME} !-f
+
+# Untuk menghindari ketika nama folder atau file yang sama dgn controller dan method kita
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Mengarahkan semua request ke index, menjaga struktur MVC lebih rapi
+RewriteRule ^(.*)$ index.php?url=$1 [L]
