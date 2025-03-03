@@ -19,6 +19,7 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-item nav-link active" href="<?= BASEURE; ?>">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="<?= BASEURE; ?>/mahasiswa">Mahasiswa</a>
                     <a class="nav-item nav-link" href="<?= BASEURE; ?>/about">About</a>
                 </div>
             </div>
