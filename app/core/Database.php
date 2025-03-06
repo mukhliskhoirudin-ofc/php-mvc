@@ -72,4 +72,10 @@ class Database
         $this->execute();
         return $this->stmt->fetch(PDO::FETCH_ASSOC);
     }
+
+    //untuk menghitung ada berapa baris yang beruba
+    public function rowCount()
+    {
+        return $this->stmt->rowCount();
+    }
 }
