@@ -2,6 +2,7 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <!-- BASEURL merupakan constranta agar cepat panggilnya pengganti http://localhost.. -->
 <script src="<?= BASEURE; ?>/js/bootstrap.js" crossorigin="anonymous"></script>
+<script src="<?= BASEURE; ?>/js/script.js" crossorigin="anonymous"></script>
 
 
 </body>
